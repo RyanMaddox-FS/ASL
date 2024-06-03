@@ -11,6 +11,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      models.Star.belongsTo(models.Galaxy);
+      models.Star.hasMany(models.Planet,{through:models.PlanetStar,uniqueKey: "PlanetId"});
     }
   }
   Star.init({
