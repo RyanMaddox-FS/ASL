@@ -1,5 +1,3 @@
-# Advanced Server-side Languages
+# Space Tracker App
 
-## C202405-01 | WDV442-O 
-
-#### Ryan Maddox
+This is the space tracker app for my Advanced Server-side Languages class (WDV442).
